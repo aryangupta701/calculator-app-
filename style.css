@@ -1,14 +1,21 @@
+
+body{
+    background-color: hsl(222, 26%, 31%) !important;
+    font-family: 'Spartan', sans-serif !important;
+    
+}
 .main{
     font-size: 15px;
-    font-family: 'Spartan', sans-serif;
-    
+    color: hsl(221, 14%, 31%);
 }
 
 #output-bar > input {
     text-align: right;
 }
 #input-bar{
-    width: 149px; 
+    margin-top: 10px;
+    width: 299px; 
+   background-color:  hsl(224, 36%, 15%);
 }
 #input-bar>ul{
     display: flex;
@@ -17,14 +24,51 @@
     
 }
 #input-bar>ul>li{
+    margin: 5px;
     text-decoration: none;
 }
 
 #input-bar>ul>li>button{
-    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    width: 60px;
+    background-color: hsl(30, 25%, 89%);
 }
 #calculator{
-    width: 250px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 } 
+#input-tab{
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#heading{
+   
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#Reset-button {
+    color: white;
+    background-color: hsl(222, 26%, 31%) !important;
+width: 135px !important;
+}
+
+#equal-button{
+    color: white;
+    background-color: hsl(6, 63%, 50%) !important;
+    width: 135px !important;
+}
+#del-button{
+    color: white;
+    background-color: hsl(222, 26%, 31%) !important;
+}
