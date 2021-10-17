@@ -1,0 +1,30 @@
+.main{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+#output-bar > input {
+    text-align: right;
+}
+#input-bar{
+    width: 149px; 
+}
+#input-bar>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+#input-bar>ul>li{
+    text-decoration: none;
+}
+
+#input-bar>ul>li>button{
+    width: 30px;
+}
+#calculator{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+} 
